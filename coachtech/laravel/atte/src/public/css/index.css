@@ -1,0 +1,63 @@
+.stamp-content{
+    background: #f3f3f3;
+    width: 100%;
+    height: 700px;
+}
+
+.stamp-content__ttl {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+h2 {
+    color: #1C1C1C;
+}
+
+.work-radiobutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+
+.work-stamp_radiobutton_start,.work-stamp_radiobutton_end,.rest-stamp_radiobutton_start,.rest-stamp_radiobutton_end {
+    display: none;
+}
+
+.rest-radiobutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+
+label {
+    background: #fff;
+    color: #1C1C1C;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 80px 220px;
+    margin: 0;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+    color: #e5e4e6;
+}
+
+.rest-button__submit {
+    margin: 0 auto;
+    background: #fff;
+    color: #1C1C1C;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 80px 220px;
+    margin: 0;
+    margin-left: 50px;
+    cursor: pointer;
+}
